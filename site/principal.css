@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));
+    color: white;
+    text-align: center;
+}
+
+.table-bg {
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 15px 15px 0px 0px;
+}
+
+.navbar-expand-lg ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: 3px;
+    right: 800px;
+}
+
+.navbar-expand-lg li {
+    background-image: linear-gradient(to right, rgb(15, 101, 199), rgb(90, 33, 196));
+    border: none;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px;
+    margin: 2px;
+    border-radius: 5px;
+}
+
+.navbar-expand-lg li:hover {
+    background-image: linear-gradient(to right, rgb(0, 80, 172), rgb(80, 19, 195));
+}
+
+.navbar-expand-lg a#linkbar{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-expand-lg a#linkbar:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+button#cadastrar {
+    padding: 15px;
+    background-image: linear-gradient(to right, rgb(15, 101, 199), rgb(90, 33, 196));
+    color: white;
+    width: 50%;
+    text-transform: uppercase;
+    border-radius: 15px 15px 0px 0px;
+    left: 100%;
+    top: 100%;
+    margin-left:-110px;
+    margin-top:-40px;
+}
+
+button#cadastrar:hover {
+    background-image: linear-gradient(to right, rgb(0, 80, 172), rgb(80, 19, 195));
+}
+
+h1{
+    text-align: center;
+}
+
+img#casa {
+    position: absolute;
+    left: 55px;
+    top: 75px;
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+}
+
+
+img#carro {
+    position: absolute;
+    left: 1730px;
+    top: 75px;
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+}
